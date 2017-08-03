@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.menu, .cart {
+  /* background: gray; */
+  border: 1px solid #CECECE;
+  display: block;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.menu h3, .cart h3 {
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+.menu li, .cart li {
+  height: 40px;
+}
+
+.menu li:hover, .cart li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background-color: #6ba7da;
+}
+
+.cart li:hover {
+  background-color: #b72424;
+}
+
+.cart ul {
+  margin-top: 23px;
+}
+
+.inline-name, .inline-price {
+  position: absolute;
+  line-height: 20px;
+}
+
+.inline-name {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.inline-price {
+  margin-left: 190px;
+}
+
+.sum {
+  text-align: right;
+  margin-top: -44px;
+}
